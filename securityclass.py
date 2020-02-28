@@ -21,7 +21,7 @@ class Security:
     def request_td_opchain(self):
         symbol = self.symbol
         endpoint = 'https://api.tdameritrade.com/v1/marketdata/chains'
-        accesskey = 'RJGZGRIGBKYCFJEYJBI6LPFSY6OGPCYF'
+        accesskey = ''
         payload = {'apikey': accesskey,
                    'symbol': '{}'.format(symbol),
                    'contractType': 'ALL',
